@@ -66,13 +66,13 @@
   </div>
   <!-- Runtime environment config — loaded BEFORE Flutter so keys are
        available when EnvConfigLoader.load() runs in main(). -->
-  <script src="env-config.js?v=1781009838"></script>
-  <script src="flutter_bootstrap.js?v=1781009838" async></script>
+  <script src="env-config.js?v=v20260609161401"></script>
+  <script src="flutter_bootstrap.js?v=v20260609161401" async></script>
 
   <!-- Hard refresh on stale service worker — detects version mismatch and force-reloads -->
   <script>
     (function() {
-      var NDU_BUILD = '1781009838';
+      var NDU_BUILD = 'v20260609161401';
       try {
         var stored = localStorage.getItem('__ndu_build');
         if (stored && stored !== NDU_BUILD) {
